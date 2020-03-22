@@ -1,0 +1,101 @@
+.wrapper {
+    text-align: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #6d5383;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#container {
+    width: 700px;
+    height: 700px;
+    background-color: #fff;
+    border: 3px solid #6d5383;
+    position: relative;
+    margin: auto auto;
+    border-radius: 350px;
+}
+
+#circle {
+    width: 5px;
+    height: 350px;
+    background-color: red;
+    position: absolute;
+    left: 350px;
+    top: 350px;
+    transform-origin: 0% 0px;
+    z-index: 900;
+}
+
+.numbers {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: monospace;
+    position: absolute;
+}
+
+#one {
+    left: 500px;
+    top: 30px;
+}
+
+#two {
+    left: 600px;
+    top: 130px;
+}
+
+#three {
+    left: 670px;
+    top: 300px;
+}
+
+#four {
+    left: ;
+    top: ;
+}
+
+#five {
+    left: ;
+    top: ;
+}
+
+#six {
+    left: 335px;
+    top: 630px;
+}
+
+#seven {
+    left: ;
+    top: ;
+}
+
+#eight {
+    left: ;
+    top: ;
+}
+
+#nine {
+    right: 670px;
+    top: 300px;
+}
+
+#ten {
+    left: ;
+    top: ;
+}
+
+#eleven {
+    left: ;
+    top: ;
+}
+
+#twelve {
+    left: 335px;
+    bottom: 630px;
+}
